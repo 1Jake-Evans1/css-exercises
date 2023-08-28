@@ -1,4 +1,3 @@
-* {border: 2px solid red;}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -19,21 +18,21 @@ img {
 
 .info{
   display: flex;
-  justify-content: space-evenly;
+  flex: 1;
+  justify-content: center;
   gap: 52px;
 }
 
 .text{
-  width: 200px;
   text-align: center;
-  flex-wrap: wrap;
+  max-width: 200px;
 }
 
 .column{
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 5px;
 }
 
 /* do not edit this footer */
